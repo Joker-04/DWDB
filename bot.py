@@ -21,11 +21,11 @@ from telegram.ext import (
 # === CONFIG ===
 import os
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
-ADMIN_USER_ID = 123456789  # Replace with your Telegram ID
+ADMIN_USER_ID = 5640295091  # Replace with your Telegram ID
 PREMIUM_FILE = "premium_users.json"
 USAGE_FILE = "usage_tracker.json"
 QR_IMAGE_PATH = "qr.png"
-UPI_ID = "yourupiid@upi"
+UPI_ID = "xyzxyzxyz.@ibl"
 
 # === LOGGING ===
 logging.basicConfig(level=logging.INFO)
