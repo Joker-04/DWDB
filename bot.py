@@ -150,12 +150,13 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
             photo=InputFile(QR_IMAGE_PATH),
             caption=(
                 "💎 *Premium Plans:*\n\n"
-                "• 7 Days = ₹29\n"
-                "• 30 Days = ₹79\n"
-                "• Lifetime = ₹149\n\n"
+                "• 7 Days = ₹15\n"
+                "• 30 Days = ₹60\n"
+                "• 3 Months = ₹150\n"
+                "• Lifetime = Contact To Admin @Who_I_AM02\n\n"
                 f"📲 Pay via UPI: `{UPI_ID}`\n"
                 "After payment, send screenshot to admin to activate premium.\n\n"
-                "👨‍💼 @YourAdminUsername"
+                "👨‍💼 @Who_I_AM02"
             ),
             parse_mode="Markdown"
         )
